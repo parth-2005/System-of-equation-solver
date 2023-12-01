@@ -34,9 +34,11 @@ This is a simple C++ program that solves a system of linear equations using the 
 The program will prompt you to input the coefficients and constants of the system of equations. Example input for a system of three equations with three variables:
 
 Enter the coefficients and constants of the matrix [A|B] (3x4):
+```
 2 3 -1 1
 4 -2 3 -2
 3 2 -4 3
+```
 
 
 Here, the last column represents the constants of the system.
@@ -44,11 +46,11 @@ Here, the last column represents the constants of the system.
 ## Example
 
 Consider the system of equations:
-
+```
 2x + 3y - z = 1
 4x - 2y + 3z = -2
 3x + 2y - 4z = 3
-
+```
 
 The program will output the solution for `x`, `y`, and `z`.
 
